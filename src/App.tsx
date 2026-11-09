@@ -630,19 +630,19 @@ export default function WeddingInvitation() {
               </div>
             </motion.button>
 
-            <section className="w-full relative flex items-start justify-center overflow-hidden bg-transparent min-h-[100dvh] md:min-h-[85vh] pt-20 md:pt-32">
+            <section className="w-full relative flex items-start justify-center overflow-hidden bg-transparent min-h-[100dvh] pt-20 md:pt-32">
               <div
-                className="absolute inset-0 bg-cover bg-[center_bottom] md:bg-[length:auto_100%] md:bg-repeat-x"
+                className="absolute inset-0 bg-[#f8ebd6] bg-cover bg-[center_bottom] md:bg-[length:auto_72%] md:bg-repeat-x"
                 style={{ backgroundImage: `url("/Elegant%20Pink%20Lotus%20Stationery%20Background.png")` }}
                 aria-hidden="true"
               />
               <div
-                className="mandala-bg animate-spin-slow pointer-events-none absolute left-1/2 top-0 w-[min(95vw,36rem)] h-[min(95vw,36rem)] -ml-[min(47.5vw,18rem)] -mt-[min(47.5vw,18rem)] opacity-40"
+                className="mandala-bg animate-spin-slow pointer-events-none absolute left-1/2 top-0 w-[95vw] h-[95vw] -ml-[47.5vw] -mt-[47.5vw] md:w-[26rem] md:h-[26rem] md:-ml-[13rem] md:-mt-[13rem] opacity-40"
                 style={{ animationDuration: "50s" }}
                 aria-hidden="true"
               />
 
-              <div className="relative z-10 w-full max-w-5xl px-6 text-center mt-12 md:mt-0">
+              <div className="relative z-10 w-full max-w-5xl px-6 text-center mt-[32vw] md:mt-16">
 
                 <motion.div
                   initial={{ opacity: 0, y: 20 }}
@@ -650,7 +650,7 @@ export default function WeddingInvitation() {
                   transition={{ delay: 0.15, duration: 0.8 }}
                   className="mt-10"
                 >
-                  <h1 className="text-6xl sm:text-7xl md:text-8xl text-[#c5a059] italic leading-none drop-shadow-[0_0_15px_rgba(255,255,255,0.9)]">
+                  <h1 className="text-6xl sm:text-7xl text-[#c5a059] italic leading-none drop-shadow-[0_0_15px_rgba(255,255,255,0.9)]">
                     {INVITATION.couple.bride}
                   </h1>
 
@@ -660,7 +660,7 @@ export default function WeddingInvitation() {
                     <div className="h-px w-14 bg-white/40" />
                   </div>
 
-                  <h1 className="mt-6 text-6xl sm:text-7xl md:text-8xl text-[#c5a059] italic leading-none drop-shadow-[0_0_15px_rgba(255,255,255,0.9)]">
+                  <h1 className="mt-6 text-6xl sm:text-7xl text-[#c5a059] italic leading-none drop-shadow-[0_0_15px_rgba(255,255,255,0.9)]">
                     {INVITATION.couple.groom}
                   </h1>
                 </motion.div>
